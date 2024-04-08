@@ -15,10 +15,11 @@ class CalculateDebtAmountTasks:
       - **Monthly Interest Rate**: {monthly_interest_rate}%
       
       **Instructions**:
-      Calculate the sum of the original debt amount, the accumulated penalty (capped by the penalty cap), and the accumulated interest. Provide the final total debt amount as the result.
+      Calculate the sum of the original debt amount, the accumulated penalty (capped by the penalty cap), and the accumulated interest. 
+      Provide the final total debt amount as the result.
     """).format(debt_amount=debt_amount, days_late=days_late, daily_penalty_rate=daily_penalty_rate, penalty_cap=penalty_cap, monthly_interest_rate=monthly_interest_rate)
 
-    expected_output = "A single numerical value representing the final total debt amount."
+    expected_output = "The Total Amount Due"
 
     return Task(
       description=description,

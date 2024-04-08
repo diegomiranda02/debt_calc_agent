@@ -17,8 +17,7 @@ class FinanceDepartmentCrew:
     
   def run(self):
 
-    task_manager = TaskManager()
-    agents = FinanceDepartmentAgents(task_manager=task_manager)
+    agents = FinanceDepartmentAgents()
     tasks = CalculateDebtAmountTasks()
 
     debt_calculator_agent = agents.debt_calculator_agent()
