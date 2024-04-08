@@ -11,7 +11,7 @@ class FinanceDepartmentAgents():
     return Agent(
       role='Debt Calculator Expert',
       goal='Calculate the debt amount due based on the accumulated penalty and the accumulated interest',
-      backstory='An expert in calculating the payment delay interest rate in a contract',
+      backstory='An expert in calculating the debt amount due based on the accumulated penalty and the accumulated interest',
       tools=[
                 DebtCalculatorTools.calculate_debt
             ],

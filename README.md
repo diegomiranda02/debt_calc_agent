@@ -1,14 +1,12 @@
-# debt_calc_agent
-An agent implemented using CrewAI to calculate the debt amount considering days late, the daily penalty rate, the penalty cap and the monthly interest rate
-
 # AI Crew to calculate a debt amount
 ## Introduction
-This project is an example using the CrewAI framework to calculate the debt amount considering days late, the daily penalty rate, the penalty cap and the monthly interest rate.
+This project showcases the power of CrewAI framework to calculate debt amounts considering various factors like days late, daily penalty rate, penalty cap, and monthly interest rate.
 
 By [@diegomiranda02](https://linkedin.com/in/diego-miranda-de-paula/)
 
 ## CrewAI Framework
-CrewAI is designed to facilitate the collaboration of role-playing AI agents. In this example, an agent is an expert in calculating the payment delay interest rate in a contract.
+
+CrewAI makes it super easy to collaborate with AI agents. Here, we've trained an agent to be an expert in calculating payment delay interest rates in contracts.
 
 ## Running the Script
 - **Install Dependencies**: Run `poetry install --no-root`.
@@ -34,7 +32,7 @@ class FinanceDepartmentAgents():
     return Agent(
       role='Debt Calculator Expert',
       goal='Calculate the debt amount due based on the accumulated penalty and the accumulated interest',
-      backstory='An expert in calculating the payment delay interest rate in a contract',
+      backstory='An expert in calculating the debt amount due based on the accumulated penalty and the accumulated interest',
       tools=[
                 DebtCalculatorTools.calculate_debt
             ],
@@ -45,5 +43,5 @@ class FinanceDepartmentAgents():
 ```
 
 ## License
-This project is released under the MIT License.
+This project is released under the MIT License. Feel free to explore, modify, and share! 🚀📊
 
