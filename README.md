@@ -1,4 +1,4 @@
-# AI Crew to calculate a debt amount
+# AI Crew: Debt Amount Calculator
 ## Introduction
 This project showcases the power of CrewAI framework to calculate debt amounts considering various factors like days late, daily penalty rate, penalty cap, and monthly interest rate.
 
