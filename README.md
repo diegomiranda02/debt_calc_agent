@@ -6,7 +6,7 @@ By [@diegomiranda02](https://linkedin.com/in/diego-miranda-de-paula/)
 
 ## CrewAI Framework
 
-CrewAI makes it super easy to collaborate with AI agents. Here, we've trained an agent to be an expert in calculating payment delay interest rates in contracts.
+CrewAI makes it super easy to collaborate with AI agents. In this example, it was implemented an agent to be an expert in calculating payment delay interest rates in contracts.
 
 ## Running the Script
 - **Install Dependencies**: Run `poetry install --no-root`.
