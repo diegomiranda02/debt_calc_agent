@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "debt-calc-agent"
+version = "0.1.0"
+description = "An agent implemented using CrewAI to calculate the debt amount considering days late, the daily penalty rate, the penalty cap and the monthly interest rate"
+authors = ["Diego Miranda"]
+license = "MIT license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = "^0.28.6"
+crewai-tools = "^0.1.6"
+langchain-community = "^0.0.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
