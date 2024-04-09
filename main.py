@@ -2,8 +2,6 @@ from crewai import Crew
 from textwrap import dedent
 from debt_calculator_tasks import CalculateDebtAmountTasks
 from finance_department_agents import FinanceDepartmentAgents
-from task_manager import TaskManager
-
 
 class FinanceDepartmentCrew:
 
